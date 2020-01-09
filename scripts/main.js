@@ -1,5 +1,5 @@
-import { getFlowers } from "./flowerProvider.js";
-import FlowerList from "./flowerList.js";
+import { getFlowers } from "./Flowers/flowerProvider.js";
+import FlowerList from "./Flowers/flowerList";
 
 getFlowers()
     .then(FlowerList)

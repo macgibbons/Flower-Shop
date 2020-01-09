@@ -26,5 +26,14 @@
             "color": "White"
         }
         
+    ], 
+    "retailers": [
+        {
+            "id": 1, 
+            "name": "John's Flowers", 
+            "city": "Nashville",
+            "state": "TN",
+            "address": "337 Charlotte Pike, 37206"
+        }
     ]
 }
