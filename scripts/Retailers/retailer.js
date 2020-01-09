@@ -1,4 +1,4 @@
-const Retailer = (retailer) => {
+const Retailer = (retailer, distributor) => {
     return `
     <section class="retailer__card">
     <header class="retailer__header">
@@ -6,6 +6,7 @@ const Retailer = (retailer) => {
     </header>
     <article class="retailer__info">
         <div class="retailer__location">${retailer.address} ${retailer.city}, ${retailer.state}</div>
+        <div class="retailer__distributor">Distributor: ${distributor.name}</div>
     </article>
 </section>
     `

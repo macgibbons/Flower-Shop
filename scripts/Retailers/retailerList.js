@@ -1,11 +1,13 @@
 import Retailer from "./retailer.js";
 import { useRetailers } from "./retailerProvider.js";
+import { useDistributors } from "../Distributors/distributorPrivider.js";
 
 
 const contentTarget = document.querySelector(".retailer__container") 
 
 const RetailerList = () => {
     const retailers = useRetailers()
+    const distributors = useDistributors()
 
     const render = () => {
         contentTarget.innerHTML = `
@@ -14,7 +16,8 @@ const RetailerList = () => {
 
             retailers.map( 
                 retailer => {
-                    const html = Retailer(retailer)
+                    const distributor = distributors.find(distributor => distributor.id === retailer.distributorId)
+                    const html = Retailer(retailer, distributor)
                     
                     return html
                 }

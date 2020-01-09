@@ -33,35 +33,63 @@
             "name": "John's Flowers", 
             "city": "Nashville",
             "state": "TN",
-            "address": "337 Charlotte Pike, 37206"
+            "address": "337 Charlotte Pike, 37206",
+            "distributorId": 2
         },
         {
             "id": 2, 
             "name": "Petals and Thorns", 
             "city": "Brentwood",
             "state": "TN",
-            "address": "337 Hillsboro Pike, 37206"
+            "address": "337 Hillsboro Pike, 37206",
+            "distributorId": 2
         },
         {
             "id": 3, 
             "name": "Monelle's", 
             "city": "Nashville",
             "state": "TN",
-            "address": "337 elliston place, 37202"
+            "address": "337 elliston place, 37202",
+            "distributorId": 3
         },
         {
             "id": 4, 
             "name": "The Flower Shoppe", 
             "city": "Madison",
             "state": "TN",
-            "address": "337 Gallatin Pike, 37216"
+            "address": "337 Gallatin Pike, 37216",
+            "distributorId": 1
         },
         {
             "id": 5, 
             "name": "Flower xpress", 
             "city": "Franklin",
             "state": "TN",
-            "address": "337 Franklin Road, 37204"
+            "address": "337 Franklin Road, 37204",
+            "distributorId": 3
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1, 
+            "name": "Flower Warehouse", 
+            "city": "Nashville",
+            "state": "TN",
+            "address": "337 elm hill pike, 37206"
+        },
+        {
+            "id": 2, 
+            "name": "Mid TN flower supplier", 
+            "city": "antioch",
+            "state": "TN",
+            "address": "337 Nolensville pike, 37206"
+        },
+        {
+            "id": 3, 
+            "name": "South Nashville FLower and garden", 
+            "city": "Nashville",
+            "state": "TN",
+            "address": "337 thompson Lane, 37202"
         }
     ]
 }
