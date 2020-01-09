@@ -1,5 +1,26 @@
+body{
+    font-family: TheBoldFont;
+    letter-spacing: 3px;
+}
 .flower__card {
     border: 1px solid black;
     margin: 10px;
     padding: 10px;
+}
+
+.retailer__card {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.retailers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.retailer__title {
+    text-align: center;
 }

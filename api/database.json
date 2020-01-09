@@ -34,6 +34,34 @@
             "city": "Nashville",
             "state": "TN",
             "address": "337 Charlotte Pike, 37206"
+        },
+        {
+            "id": 2, 
+            "name": "Petals and Thorns", 
+            "city": "Brentwood",
+            "state": "TN",
+            "address": "337 Hillsboro Pike, 37206"
+        },
+        {
+            "id": 3, 
+            "name": "Monelle's", 
+            "city": "Nashville",
+            "state": "TN",
+            "address": "337 elliston place, 37202"
+        },
+        {
+            "id": 4, 
+            "name": "The Flower Shoppe", 
+            "city": "Madison",
+            "state": "TN",
+            "address": "337 Gallatin Pike, 37216"
+        },
+        {
+            "id": 5, 
+            "name": "Flower xpress", 
+            "city": "Franklin",
+            "state": "TN",
+            "address": "337 Franklin Road, 37204"
         }
     ]
 }
