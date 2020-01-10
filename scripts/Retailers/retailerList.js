@@ -27,6 +27,7 @@ const RetailerList = () => {
                     const distributor = distributors.find(distributor => distributor.id === retailer.distributorId)
 
                     const distributorNurseryRelationship = distNurs.filter(cr => cr.distributorId === distributor.id)
+                    
                     const foundNurserysArray = distributorNurseryRelationship.map(cr => {
                         const foundNursery = nurseries.find(nursery => nursery.id === cr.nurseryId)
                         

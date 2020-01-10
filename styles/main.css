@@ -24,3 +24,20 @@ body{
 .retailer__title {
     text-align: center;
 }
+
+.distributor__title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.nursery {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.flower__title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
