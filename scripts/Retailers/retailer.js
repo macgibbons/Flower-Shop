@@ -1,4 +1,4 @@
-const Retailer = (retailer, distributor, nurseries) => {
+const Retailer = (retailer, distributor, nurseries, flowersArray) => {
     return `
     <section class="retailer__card">
     <header class="retailer__header">
@@ -12,6 +12,20 @@ const Retailer = (retailer, distributor, nurseries) => {
             nurseries.map(
                 nursery => {
                     return `<div>${nursery.name}</div>`
+                }
+            ).join("")
+        }
+        </div>
+        <div>
+        This shop sells:
+        ${
+            flowersArray.map(
+                flowers => { 
+                    return flowers.map(
+                        flower=> {
+                            return `<div>${flower.color} ${flower.commonName}s </div>`
+                        }
+                    ).join("")
                 }
             ).join("")
         }
